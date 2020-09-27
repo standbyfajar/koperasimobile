@@ -1,12 +1,10 @@
 import React from 'react';
-import {Text} from 'react-native';
-
-
+import { Container, Header, Content, Form, Item, Input, Label, Button, DatePicker, Text } from 'native-base';
 
 const Peminjaman = () => {
     return (
-        <Text>Peminjaman</Text>
-    )
+     <Label>Halaman Peminjaman</Label>
+    );
 }
 
 export default Peminjaman;

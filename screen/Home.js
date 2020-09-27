@@ -22,7 +22,7 @@ const Home = ({navigation}) => {
                                     <Text><Icon name="account-circle" size={60}></Icon></Text>
                                 </View>
                                 <View style={{justifyContent:"center",flex:3}}>
-                                    <TouchableOpacity onPress={() => {navigation.navigate("")}}><Text >Akun Saya</Text></TouchableOpacity>
+                                    <TouchableOpacity onPress={() => {navigation.navigate("AkunSaya")}}><Text >Akun Saya</Text></TouchableOpacity>
                                 </View>
                             </View>
                             
@@ -41,6 +41,14 @@ const Home = ({navigation}) => {
                                 </View>
                                 <View style={{justifyContent:"center",flex:3}}>
                                 <TouchableOpacity onPress={() => {navigation.navigate("TransaksiPeminjaman")}}><Text >Transaksi Peminjaman </Text></TouchableOpacity>
+                                </View>
+                            </View>
+                            <View style={{flexDirection:"row",flex:1, justifyContent:"center"}}>
+                                <View style={{justifyContent:"center",flex:2, alignItems:"center"}}>
+                                  <Text><Iconawe name="money-bill" size={60}></Iconawe></Text>
+                                </View>
+                                <View style={{justifyContent:"center",flex:3}}>
+                                <TouchableOpacity onPress={() => {navigation.navigate("Login")}}><Text >Login </Text></TouchableOpacity>
                                 </View>
                             </View>
 

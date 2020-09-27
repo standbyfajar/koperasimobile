@@ -5,14 +5,21 @@ import { createStackNavigator } from 'react-navigation-stack';
 
 
 import Home from '../screen/Home';
+import Akun from '../screen/Akun';
 import Pengajuan from '../screen/Pengajuan';
 import Peminjaman from '../screen/Peminjaman';
+import Login from '../screen/Login';
+import Camera from '../screen/Camera';
+
 
 const Navigation = createStackNavigator(
     {
         HomeScreen :Home,
+        AkunSaya : Akun,
         TransaksiPengajuan : Pengajuan,
-        TransaksiPeminjaman : Peminjaman
+        TransaksiPeminjaman : Peminjaman,
+        Login : Login,
+        Camera : Camera
     },
     {
         initialRouteName :"HomeScreen",
